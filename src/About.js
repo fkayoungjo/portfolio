@@ -5,8 +5,7 @@ export const About = (props) => {
 
     return (
       <div>
-              <h1>Jordan Simon</h1>
-              <Button outline color="secondary" size="lg" block>View Resume</Button>
+              hi
 
       </div>
     )

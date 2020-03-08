@@ -1,5 +1,6 @@
 import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
+import profile from './profile.jpeg'
 
 
 export const Jumbot = (props) => {
@@ -8,8 +9,9 @@ export const Jumbot = (props) => {
       <div>
         <Jumbotron className= 'jum' fluid >
           <Container fluid >
-              <h1>Jordan Simon</h1>
-              <h4>Software Engineer</h4>
+            <img className= "profile" width="250" height="250" src={profile} alt="profile"/>
+            <h1 className = "name">Jordan Simon</h1>
+            <h4>Software Engineer</h4>
           </Container>
         </Jumbotron>
       </div>
