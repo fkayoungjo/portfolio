@@ -102,5 +102,19 @@ li a:hover {
 }
 
 .interest{
-  list-style-type: none;
+  font-family: "Open Sans";
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+  font-weight: 400;
+
 }
+
+p {
+  font-family: "Open Sans";
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+  font-weight: 400;}

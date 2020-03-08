@@ -10,16 +10,16 @@ export const Navigation = (props) => {
         <Navbar className="barnav">
           <NavbarBrand href="/"> <img src={js} alt="logo" width="40" height="40"/> </NavbarBrand>
           <NavItem>
-            <NavLink href="/about/">About</NavLink>
+            <NavLink href="#about">About</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/portfilio/">Portfolio</NavLink>
+            <NavLink href="#portfilio">Portfolio</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/blog/">Blog</NavLink>
+            <NavLink href="#blog">Blog</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/contact/">Contact</NavLink>
+            <NavLink href="#contact">Contact</NavLink>
           </NavItem>
           <a href="/cv.pdf" target="_blank" class="header__cv">Download CV</a>
           </Navbar>
