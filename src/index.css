@@ -33,10 +33,10 @@ li {
 }
 
 li a {
-  font-family: ff-tisa-sans-web-pro sans-serif;
+  font-family: "Montserrat";
+    font-size: 22px;
+    font-weight: 500;
   font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -52,15 +52,10 @@ li a:hover {
 .jum{
   text-align: center;
   background-color:transparent !important;
-  font-family: ff-tisa-sans-web-pro sans-serif;
   font-style: normal;
   color: white;
   margin: 0;
     padding: 0;
-    font-size: 3.750em;
-    font-weight: 900;
-    letter-spacing: 0.1em;
-    line-height: 1em;
     text-transform: uppercase;
     background-image: url("./jumboimg.jpg");
     height:550px;
@@ -88,8 +83,22 @@ li a:hover {
     padding: 10px 14px;
     border-radius: 3px;
     font-size: 14px;
+    font-family: "Montserrat";
+
 }
 
 .name {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Montserrat";
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  line-height: 1em;
+}
+
+.role {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1em;
 }

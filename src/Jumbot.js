@@ -11,7 +11,7 @@ export const Jumbot = (props) => {
           <Container fluid >
             <img className= "profile" width="250" height="250" src={profile} alt="profile"/>
             <h1 className = "name">Jordan Simon</h1>
-            <h4>Software Engineer</h4>
+            <h4 className = "role">Software Engineer</h4>
           </Container>
         </Jumbotron>
       </div>

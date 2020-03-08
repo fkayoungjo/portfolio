@@ -16,10 +16,10 @@ export const Navigation = (props) => {
             <NavLink href="/portfilio/">Portfolio</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/contact/">Contact</NavLink>
+            <NavLink href="/blog/">Blog</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/blog/">Blog</NavLink>
+            <NavLink href="/contact/">Contact</NavLink>
           </NavItem>
           <a href="/cv.pdf" target="_blank" class="header__cv">Download CV</a>
           </Navbar>
