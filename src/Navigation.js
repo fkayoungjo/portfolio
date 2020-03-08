@@ -6,8 +6,8 @@ export const Navigation = (props) => {
 
     return (
       <div >
-        <ul >
-        <Navbar>
+        <ul className="navnav">
+        <Navbar className="barnav">
           <NavbarBrand href="/"> <img src={js} alt="logo" width="40" height="40"/> </NavbarBrand>
           <NavItem>
             <NavLink href="/about/">About</NavLink>
