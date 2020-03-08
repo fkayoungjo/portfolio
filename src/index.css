@@ -63,7 +63,7 @@ li a:hover {
     line-height: 1em;
     text-transform: uppercase;
     background-image: url("./jumboimg.jpg");
-    height:500px;
+    height:550px;
     background-repeat: no-repeat;
     background-size: cover;
      background-position: center center;
@@ -88,4 +88,8 @@ li a:hover {
     padding: 10px 14px;
     border-radius: 3px;
     font-size: 14px;
+}
+
+.name {
+  font-family: 'Open Sans Condensed', sans-serif;
 }
