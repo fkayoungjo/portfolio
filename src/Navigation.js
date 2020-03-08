@@ -7,11 +7,22 @@ export const Navigation = (props) => {
     return (
       <div >
         <ul >
+        <Navbar>
           <NavbarBrand href="/"> <img src={js} alt="logo" width="40" height="40"/> </NavbarBrand>
-          <li><a href="/">Portfolio</a></li>
-          <li><a href="/">Contact</a></li>
-          <li><a href="/">About</a></li>
-          <a href="/cv.pdf" target="_blank" class="header__cv">Download Cv</a>
+          <NavItem>
+            <NavLink href="/about/">About</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/portfilio/">Portfolio</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/contact/">Contact</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/blog/">Blog</NavLink>
+          </NavItem>
+          <a href="/cv.pdf" target="_blank" class="header__cv">Download CV</a>
+          </Navbar>
         </ul>
       </div>
     )

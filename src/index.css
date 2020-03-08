@@ -37,12 +37,10 @@ li a {
   font-style: normal;
   font-weight: 900;
   font-size: 18px;
-  display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  float: right;
 }
 
 li a:hover {
