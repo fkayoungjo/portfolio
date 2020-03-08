@@ -14,8 +14,8 @@ class App extends Component {
 
     return (
       <div>
-        <Navigation/>
         <Jumbot/>
+        <Navigation/>
         <About/>
       </div>
     )
