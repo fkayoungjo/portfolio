@@ -3,6 +3,7 @@ import Navigation from './Navigation.js'
 import Jumbot from './Jumbot.js'
 import About from './About.js'
 import Contact from './Contact.js'
+import Portfolio from './Portfolio.js'
 
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
         <Jumbot/>
         <Navigation/>
         <About/>
+        <Portfolio/>
       </div>
     )
   }
