@@ -25,7 +25,7 @@ code {
   top: 0;
   position: fixed;
   width: 100%;
-
+  z-index:1;
 }
 
 
@@ -52,6 +52,7 @@ li a:hover {
   background-color:transparent !important;
   font-style: normal;
   color: white;
+  margin-bottom: 0px !important;
   margin: 0;
     padding: 0;
     text-transform: uppercase;
@@ -122,6 +123,7 @@ p {
 
 .divs {
   padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .grey {

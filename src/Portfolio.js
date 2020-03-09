@@ -1,14 +1,14 @@
 import React from 'react';
-import { Container, Row, Card, CardImg, CardText, CardBody, CardTitle, CardGroup, CardSubtitle } from 'reactstrap';
+import { Container,  Card, CardImg, CardText, CardBody, CardTitle, CardGroup, CardSubtitle } from 'reactstrap';
 import hungry from './hungry.png'
-
+import comingsoon from './comingsoon.jpg'
 
 export const Portfolio = (props) => {
 
     return (
-      <div className="grey">
-          <Container  >
-            <a className= "name" id="portfolio"><h1>PROJECTS</h1></a>
+      <div className="grey" id="portfolio">
+          <Container className = "divs">
+            <a className= "name" ><h1>PROJECTS</h1></a>
             <CardGroup>
               <Card>
                 <CardImg top width="100%" src={hungry} alt="hungrynow" />
@@ -21,10 +21,24 @@ export const Portfolio = (props) => {
                 </CardBody>
               </Card>
               <Card>
-
+                <CardImg top width="100%" src={comingsoon} alt="coming soon" />
+                <CardBody>
+                  <CardTitle className= "cardtext"></CardTitle>
+                  <CardSubtitle className= "cardtext"> </CardSubtitle>
+                  <CardText>Demo<br></br>
+                  Front End<br></br>
+                  Back End</CardText>
+                </CardBody>
               </Card>
               <Card>
-
+                <CardImg top width="100%" src={comingsoon} alt="coming soon" />
+                <CardBody>
+                  <CardTitle className= "cardtext"></CardTitle>
+                  <CardSubtitle className= "cardtext"> </CardSubtitle>
+                  <CardText>Demo<br></br>
+                  Front End<br></br>
+                  Back End</CardText>
+                </CardBody>
               </Card>
             </CardGroup>
           </Container>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Navbar, NavbarBrand,  NavItem, NavLink } from 'reactstrap';
 import js from './js.png'
 
 export const Navigation = (props) => {
@@ -13,7 +13,7 @@ export const Navigation = (props) => {
             <NavLink href="#about">About</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#portfilio">Portfolio</NavLink>
+            <NavLink href="#portfolio">Portfolio</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="#blog">Blog</NavLink>
