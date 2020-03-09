@@ -8,7 +8,7 @@ export const Portfolio = (props) => {
     return (
       <div className="grey" id="portfolio">
           <Container className = "divs">
-            <a className= "name" ><h1>PROJECTS</h1></a>
+            <h1 className= "name">PROJECTS</h1>
             <CardGroup>
               <Card>
                 <CardImg top width="100%" src={hungry} alt="hungrynow" />

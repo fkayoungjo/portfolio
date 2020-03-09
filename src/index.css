@@ -129,3 +129,12 @@ p {
 .grey {
   background-color: #f6f7fd;
 }
+
+.contacts {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  background-color: #041230;
+
+}
