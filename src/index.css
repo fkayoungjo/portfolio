@@ -138,14 +138,6 @@ p {
 
 }
 
-.contacts {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  width: 100%;
-}
-
 .footer {
   background-color: #041230;
   font-family: "Montserrat";
@@ -156,4 +148,9 @@ p {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.links {
+  display: inline-block;
+  padding-right: 10px
 }
