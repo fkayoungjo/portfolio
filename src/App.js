@@ -6,13 +6,11 @@ import Contact from './Contact.js'
 import Portfolio from './Portfolio.js'
 import Blog from './Blog.js'
 import Skills from './Skills.js'
+import Footer from './Footer.js'
 
 
 class App extends Component {
 
-  state = {
-
-  }
 
   render() {
 
@@ -25,6 +23,7 @@ class App extends Component {
         <Portfolio/>
         <Blog/>
         <Contact/>
+        <Footer/>
       </div>
     )
   }
