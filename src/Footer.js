@@ -6,7 +6,7 @@ export const Footer = (props) => {
 
     return (
       <div className= 'footer'>
-        © Jordan Simon 2020
+        © Jordan Simon 202
       </div>
     )
   }
