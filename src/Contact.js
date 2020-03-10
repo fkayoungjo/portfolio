@@ -10,7 +10,7 @@ export const Contact = (props) => {
     return (
       <div id="contact">
       <Container className = "divs">
-      <h1 className= "name" >CONTACT</h1>
+      <h1 className= "name" >CONNECT</h1>
 
       <a href ="https://www.linkedin.com/in/jordansimondeveloper/" target="_blank" className="links"><img src={linkedin} alt="linkedin" width="40" height="40"/></a>
       <a href ="https://github.com/fkayoungjo" target="_blank" className="links"><img src={git} alt="git" width="40" height="40"/></a>
