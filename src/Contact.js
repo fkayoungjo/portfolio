@@ -8,7 +8,7 @@ import email from './email.png'
 export const Contact = (props) => {
 
     return (
-      <div className = "grey" id="contact">
+      <div id="contact">
       <Container className = "divs">
       <h1 className= "name" >CONTACT</h1>
 

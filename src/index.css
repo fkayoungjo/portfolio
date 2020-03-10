@@ -154,3 +154,11 @@ p {
   display: inline-block;
   padding-right: 10px
 }
+
+.skills {
+  display: inline-block;
+
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}

@@ -5,6 +5,7 @@ import About from './About.js'
 import Contact from './Contact.js'
 import Portfolio from './Portfolio.js'
 import Blog from './Blog.js'
+import Skills from './Skills.js'
 
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
         <Jumbot/>
         <Navigation/>
         <About/>
+        <Skills/>
         <Portfolio/>
         <Blog/>
         <Contact/>

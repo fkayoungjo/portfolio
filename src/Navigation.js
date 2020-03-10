@@ -13,10 +13,10 @@ export const Navigation = (props) => {
             <NavLink href="#about">About</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#portfolio">Portfolio</NavLink>
+            <NavLink href="#skills">Skills</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#skills">Skills</NavLink>
+            <NavLink href="#portfolio">Portfolio</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="#blog">Blog</NavLink>

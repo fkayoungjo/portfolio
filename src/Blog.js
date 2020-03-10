@@ -5,7 +5,7 @@ import medium from './medium.svg.png'
 export const Blog = (props) => {
 
     return (
-      <div id="blog">
+      <div className="grey" id="blog">
           <Container className = "divs">
             <h1 className= "name">LATEST POST</h1>
             <h5 className= "h6">Powered by <a href ="https://medium.com/@jordan.simon55" target="_blank"><img width="60.6" height="12" src={medium} alt="medium logo"/></a></h5>

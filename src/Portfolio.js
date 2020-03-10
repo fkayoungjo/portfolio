@@ -6,7 +6,7 @@ import comingsoon from './comingsoon.jpg'
 export const Portfolio = (props) => {
 
     return (
-      <div className="grey" id="portfolio">
+      <div id="portfolio">
           <Container className = "divs">
             <h1 className= "name">PROJECTS</h1>
             <CardGroup>
