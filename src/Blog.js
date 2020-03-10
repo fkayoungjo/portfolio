@@ -7,7 +7,7 @@ export const Blog = (props) => {
     return (
       <div id="blog">
           <Container className = "divs">
-            <h1 className= "name">BLOG</h1>
+            <h1 className= "name">LATEST POST</h1>
             <h5 className= "h6">Powered by <a href ="https://medium.com/@jordan.simon55" target="_blank"><img width="60.6" height="12" src={medium} alt="medium logo"/></a></h5>
             <Row>
             <Col xs="6" sm="4"><blockquote class="embedly-card"><h4><a href="https://medium.com/@jordan.simon55/panda-review-e1451b178f83" target="_blank">Panda Review</a></h4><p>Since I follow the Pomodoro method, oftentimes I find myself trailing off and losing focus. Sometimes that looks like opening a tab to online shop, other times study stats of fantasy sports. I've never been a fan of plugins, but after playing around the chrome extension Panda, I find myself falling down the rabbit hole of new languages in the pipeline and awesome vector animations.</p></blockquote>
