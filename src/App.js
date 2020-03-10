@@ -4,6 +4,7 @@ import Jumbot from './Jumbot.js'
 import About from './About.js'
 import Contact from './Contact.js'
 import Portfolio from './Portfolio.js'
+import Blog from './Blog.js'
 
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
         <Navigation/>
         <About/>
         <Portfolio/>
+        <Blog/>
       </div>
     )
   }
