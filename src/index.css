@@ -130,18 +130,30 @@ p {
   background-color: #f6f7fd;
 }
 
-.contacts {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-
-  background-color: #041230;
-
-}
 
 .h6 {
   font-family: "Montserrat";
   font-weight: 300;
   letter-spacing: 0.05em;
 
+}
+
+.contacts {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.footer {
+  background-color: #041230;
+  font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
