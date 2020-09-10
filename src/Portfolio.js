@@ -27,7 +27,7 @@ export const Portfolio = (props) => {
                   <CardTitle className= "cardtext"></CardTitle>
                   <CardSubtitle className= "cardtext">Movie Award Selector (React.js, Reactstrap)</CardSubtitle>
                   <CardText><a href ="https://shoppieawards.netlify.app/">Website<br></br>
-                  <a href ="https://github.com/fkayoungjo/shoppies"> Front End</CardText>
+                  <a href ="https://github.com/fkayoungjo/shoppies"> Front End</a></CardText>
                 </CardBody>
               </Card>
               <Card>
