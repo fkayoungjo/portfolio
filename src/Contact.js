@@ -12,9 +12,9 @@ export const Contact = (props) => {
       <Container className = "divs">
       <h1 className= "name" >CONNECT</h1>
 
-      <a href ="https://www.linkedin.com/in/jordansimondeveloper/" target="_blank" className="links"><img src={linkedin} alt="linkedin" width="40" height="40"/></a>
-      <a href ="https://github.com/fkayoungjo" target="_blank" className="links"><img src={git} alt="git" width="40" height="40"/></a>
-      <a href ="https://medium.com/@jordan.simon55" target="_blank" className="links"><img src={medium} alt="medium" width="40" height="40"/></a>
+      <a href ="https://www.linkedin.com/in/jordansimondeveloper/" target="_blank" rel="noopener noreferrer" className="links"><img src={linkedin} alt="linkedin" width="40" height="40"/></a>
+      <a href ="https://github.com/fkayoungjo" target="_blank" rel="noopener noreferrer" className="links"><img src={git} alt="git" width="40" height="40"/></a>
+      <a href ="https://medium.com/@jordan.simon55" target="_blank" rel="noopener noreferrer" className="links"><img src={medium} alt="medium" width="40" height="40"/></a>
       <a href ="mailto:jordan.simon55@gmail.com?subject=Email from Website" className="links"><img src={email} alt="email" width="40" height="50"/></a>
       </Container>
       </div>

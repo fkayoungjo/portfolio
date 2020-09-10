@@ -20,7 +20,7 @@ export const About = (props) => {
         </Row>
         <Row className="interest">
           <Col>Music Production</Col>
-          <Col>New York Knicks 😔</Col>
+          <Col>New York Knicks <span role="img" aria-labelledby='jsx-a11y/accessible-emoji'>😔</span></Col>
           <Col>Traveling</Col>
           <Col>Teaching</Col>
         </Row>

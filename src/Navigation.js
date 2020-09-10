@@ -24,7 +24,7 @@ export const Navigation = (props) => {
           <NavItem>
             <NavLink href="#contact">Contact</NavLink>
           </NavItem>
-          <a href="https://docs.google.com/document/d/1aK18his6MyW7xjeHaBCtYTfq-r3Jn7DidUFmWWv7IXE/edit?usp=sharing" target="_blank" class="header__cv">Download CV</a>
+          <a href="https://docs.google.com/document/d/1aK18his6MyW7xjeHaBCtYTfq-r3Jn7DidUFmWWv7IXE/edit?usp=sharing" target="_blank" rel="noopener noreferrer"class="header__cv">Download CV</a>
           </Navbar>
         </ul>
       </div>
