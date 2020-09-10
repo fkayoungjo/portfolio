@@ -2,6 +2,7 @@ import React from 'react';
 import { Container,  Card, CardImg, CardText, CardBody, CardTitle, CardGroup, CardSubtitle } from 'reactstrap';
 import hungry from './hungry.png'
 import comingsoon from './comingsoon.jpg'
+import shoppies from './shoppies.png'
 
 export const Portfolio = (props) => {
 
@@ -21,13 +22,12 @@ export const Portfolio = (props) => {
                 </CardBody>
               </Card>
               <Card>
-                <CardImg top width="100%" src={comingsoon} alt="coming soon" />
+                <CardImg top width="100%" src={shoppies} alt="coming soon" />
                 <CardBody>
                   <CardTitle className= "cardtext"></CardTitle>
-                  <CardSubtitle className= "cardtext"> </CardSubtitle>
-                  <CardText>Demo<br></br>
-                  Front End<br></br>
-                  Back End</CardText>
+                  <CardSubtitle className= "cardtext">Movie Award Selector (React.js, Reactstrap)</CardSubtitle>
+                  <CardText><a href ="https://shoppieawards.netlify.app/">Website<br></br>
+                  <a href ="https://github.com/fkayoungjo/shoppies"> Front End</CardText>
                 </CardBody>
               </Card>
               <Card>
