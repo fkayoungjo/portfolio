@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container} from 'reactstrap';
 import boot from './boot.png';
 import css from './css.png';
 import git from './git.png';

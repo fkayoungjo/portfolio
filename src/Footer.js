@@ -1,6 +1,4 @@
 import React from 'react';
-import { Navbar, NavbarBrand,  NavItem, NavLink } from 'reactstrap';
-import js from './js.png'
 
 export const Footer = (props) => {
 

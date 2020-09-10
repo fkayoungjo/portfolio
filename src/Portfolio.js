@@ -24,10 +24,10 @@ export const Portfolio = (props) => {
               <Card>
                 <CardImg top width="100%" src={shoppies} alt="coming soon" />
                 <CardBody>
-                  <CardTitle className= "cardtext"></CardTitle>
+                  <CardTitle className= "cardtext">The Shoppies</CardTitle>
                   <CardSubtitle className= "cardtext">Movie Award Selector (React.js, Reactstrap)</CardSubtitle>
-                  <CardText><a href ="https://shoppieawards.netlify.app/">Website<br></br>
-                  <a href ="https://github.com/fkayoungjo/shoppies"> Front End</a></CardText>
+                  <CardText><a href ="https://shoppieawards.netlify.app/">Website </a><br></br>
+                  <a href ="https://github.com/fkayoungjo/shoppies"> Front End </a></CardText>
                 </CardBody>
               </Card>
               <Card>
