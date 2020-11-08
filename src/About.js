@@ -14,13 +14,13 @@ export const About = (props) => {
         <h6 className="interest">INTERESTS</h6>
         <Row className="interest">
           <Col>Health and Fitness</Col>
-          <Col>Dallas Cowboys</Col>
+          <Col>Dallas Cowboys<span role="img" aria-labelledbjsx-a11y/accessible-emoji>😔</span></Col>
           <Col>Photography</Col>
           <Col>Fashion</Col>
         </Row>
         <Row className="interest">
           <Col>Music Production</Col>
-          <Col>New York Knicks <span role="img" aria-labelledby='jsx-a11y/accessible-emoji'>😔</span></Col>
+          <Col>New York Knicks <span role="img" aria-labelledbjsx-a11y/accessible-emoji>😔</span></Col>
           <Col>Traveling</Col>
           <Col>Teaching</Col>
         </Row>
