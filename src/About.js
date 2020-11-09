@@ -15,7 +15,7 @@ export const About = (props) => {
         <Row className="interest">
           <Col>Health and Fitness</Col>
           <Col>Dallas Cowboys<span role="img" aria-labelledbjsx-a11y/accessible-emoji>😔</span></Col>
-          <Col>Tacos</Col>
+          <Col>Photography</Col>
           <Col>Fashion</Col>
         </Row>
         <Row className="interest">
